@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  padding: 32px;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2em;
+  margin-left: 40%;
+}
+.nav-links a {
+  text-decoration: none;
+  color: black;
+}
+.nav-links a:hover {
+  color: rgb(194, 207, 199);
+}
+.nav-buttons {
+  display: flex;
+  gap: 1.4em;
+}
+.login {
+  padding: 6px;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 80px;
+}
+.sign-up {
+  padding: 6px;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 80px;
+  background-color: rgb(16, 61, 33);
+  color: white;
+}
+.logo2 {
+  color: rgb(16, 61, 33);
+}
+.logo {
+  margin-left: 20px;
+}
+.page1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.left-section {
+  padding: 20px;
+  width: 40%;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.left-section h1 {
+  margin-bottom: 30px;
+}
+.left-section p {
+  display: flex;
+}
+.right-section {
+  width: 40%;
+}
+.buttons {
+  display: flex;
+  margin-top: 4%;
+  gap: 2em;
+}
+.create-account {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(16, 61, 33);
+  width: 150px;
+}
+.create-account:hover {
+  background-color: transparent;
+  cursor: pointer;
+  color: black;
+}
+.sign-up:hover {
+  background-color: transparent;
+  cursor: pointer;
+  color: black;
+}
+.login:hover {
+  background-color: rgb(16, 61, 33);
+  color: white;
+  cursor: pointer;
+}
+.play-demo {
+  padding: 10px;
+  border: none;
+  background-color: white;
+}
