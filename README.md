@@ -21,5 +21,7 @@ Our platform is secure, reliable, and user-friendly—empowering financial freed
 **Technologies**
 Frontend: HTML, CSS, JavaScript
 Design: Figma
+
+
 **Developed ui**
 ![Screenshot 2025-03-17 182757](https://github.com/user-attachments/assets/cc87a05a-e7c8-4137-b14a-e516be54e812)
