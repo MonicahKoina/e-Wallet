@@ -3,11 +3,20 @@
   margin: 0;
   box-sizing: border-box;
 }
+body {
+  background-image: url(https://i.pinimg.com/736x/2c/68/97/2c68979de1d5babaa8306c4c79259e2e.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  backdrop-filter: blur(20px);
+}
+
 .hamburger {
   width: 40px;
   cursor: pointer;
   display: none;
 }
+
 nav {
   display: flex;
   padding: 32px;
@@ -23,6 +32,7 @@ nav {
 .nav-links a {
   text-decoration: none;
   color: black;
+  font-weight: 600;
 }
 .nav-links a:hover {
   color: rgb(194, 207, 199);
@@ -30,6 +40,7 @@ nav {
 .nav-buttons {
   display: flex;
   gap: 1.4em;
+  margin-left: 10%;
 }
 .login {
   padding: 6px;
@@ -37,8 +48,10 @@ nav {
   border: 1px solid black;
   border-radius: 10px;
   width: 80px;
+  font-weight: 600;
 }
 .sign-up {
+  font-weight: 600;
   padding: 6px;
   background-color: transparent;
   border: 1px solid black;
@@ -50,9 +63,7 @@ nav {
 .logo2 {
   color: rgb(16, 61, 33);
 }
-.logo {
-  margin-left: 20px;
-}
+
 .page1 {
   display: flex;
   justify-content: space-between;
@@ -86,12 +97,31 @@ nav {
   gap: 2em;
 }
 .create-account {
-  padding: 10px;
+  /* padding: 10px; */
   border: 1px solid black;
   border-radius: 10px;
   color: white;
   background-color: rgb(16, 61, 33);
   width: 150px;
+  height: 30px;
+}
+.review {
+  width: 70px;
+}
+.rate span {
+  position: relative;
+  left: 70%;
+  top: -29%;
+  font-weight: 600;
+}
+
+.rate p {
+  position: relative;
+  top: -30%;
+}
+.rate span2 {
+  position: relative;
+  left: -15%;
 }
 .create-account:hover {
   background-color: transparent;
@@ -113,12 +143,48 @@ nav {
   border: none;
   background-color: white;
 }
+.partb {
+  margin-top: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  font-size: 26px;
+  font-weight: 600;
+  border: 2px solid rgb(16, 61, 33);
+  width: 80%;
+  margin-left: 10%;
+  border-radius: 20px;
+}
+.partb i {
+  font-size: 40px;
+  position: relative;
+  bottom: -6px;
+  left: -6%;
+
+}
+
+.feature-head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 90vw;
+  padding: 20px;
+  margin-top: 10px;
+}
+
 @media (max-width: 768px) {
   .nav-links,
   .nav-buttons {
-    display: none;
+    visibility: hidden;
     flex-direction: column;
     text-align: center;
+  }
+  .rate span {
+    position: relative;
+    left: 0;
   }
   .hamburger {
     display: block;
@@ -126,13 +192,20 @@ nav {
   .page1 {
     flex-direction: column;
     text-align: center;
+    position: relative;
   }
   .left-section,
   .right-section {
     width: 100%;
+    margin-left: 25px;
   }
   .buttons {
     flex-direction: column-reverse;
     align-items: center;
+  }
+  .partb {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
   }
 }
