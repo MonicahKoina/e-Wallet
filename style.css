@@ -10,7 +10,7 @@ body {
   background-position: center;
   background-size: cover;
   backdrop-filter: blur(20px);
-  font-family: "Poppins", sans-serif;
+  
 }
 
 .hamburger {
@@ -148,18 +148,18 @@ nav {
   background-color: white;
 }
 .partb {
-  margin-top: 60px;
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
   padding: 20px;
-  font-size: 26px;
+  font-size: 20px;
   font-weight: 600;
   border: 2px solid rgb(16, 61, 33);
-  width: 80%;
-  margin-left: 10%;
   border-radius: 20px;
+  width: 80%;
+  margin: 3% auto;
+  text-align: center;
 }
 .partb i {
   font-size: 40px;
@@ -171,10 +171,9 @@ nav {
   display: flex;
   padding: 20px;
   margin-top: 40px;
-  /* background-color: white; */
   height: 100vh;
-  flex-wrap: wrap;
 }
+ 
 .sectionA {
   width: 50%;
   padding: 20px;
@@ -183,7 +182,6 @@ nav {
   font-size: 60px;
   font-family: "Poppins", sans-serif;
   font-weight: 200;
-  line-height: 80px;
 }
 .sectionA span {
   font-size: 18px;
@@ -198,30 +196,24 @@ nav {
   display: flex;
   width: 50%;
   flex-direction: column;
-  gap: 2em;
-  padding: 20px;
+  gap: 1em;
 }
 .features-content div {
-  padding: 24px;
+  padding: 20px;
   border-radius: 10px;
   background-color: rgb(222, 238, 241);
   display: flex;
   height: 30%;
   align-items: center;
-  flex-wrap: wrap;
 }
 
 .features-content .div2 {
   display: flex;
   flex-direction: column;
-  height: 100%;
+  height: auto;
   padding: 20px;
-  justify-content: left;
   font-size: 18px;
-  text-align: center;
-}
-.div2 h4 {
-  margin-bottom: 10px;
+  gap: 1em;
 }
 .features-content figure {
   position: relative;
@@ -235,24 +227,24 @@ nav {
     flex-direction: column;
     text-align: center;
   }
+ 
   .rate span {
     position: relative;
     left: 0;
   }
   .hamburger {
     display: block;
-
   }
   .page1 {
     flex-direction: column;
     text-align: center;
-
+    position: relative;
+    margin-top: -20%;
   }
   .left-section,
   .right-section {
     width: 100%;
-    text-align: center;
-    margin-left: 16%;
+    margin-left: 25px;
   }
   .buttons {
     flex-direction: column-reverse;
@@ -261,6 +253,25 @@ nav {
   .partb {
     display: flex;
     flex-direction: column;
-    margin-left: 28%;
+    margin-left: 20%;
   }
+ #features{
+  height: auto;
+  display: flex;
+  flex-direction: column;
+ }
+ .sectionA p{
+  display: none;
+ }
+.features-content div{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+.features-content{
+  margin-left: 16px;
+}
+
+ 
+ 
 }
