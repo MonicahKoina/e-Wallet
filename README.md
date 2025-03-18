@@ -25,3 +25,5 @@ Design: Figma
 
 **Developed ui**
 ![Screenshot 2025-03-17 182757](https://github.com/user-attachments/assets/cc87a05a-e7c8-4137-b14a-e516be54e812)
+![Screenshot 2025-03-18 144027](https://github.com/user-attachments/assets/7c701077-9068-4c85-9068-f374bdff2cdb)
+
