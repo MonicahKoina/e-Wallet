@@ -12,19 +12,13 @@ Our platform is secure, reliable, and user-friendly—empowering financial freed
 - Smart Transaction Tracking - Stay on top of your finances with real-time transaction history.
 - Secure & Reliable - Advanced encryption and multi-layer security for safe digital banking.
 
-  **UI designs from figma**
-![Screenshot 2025-03-14 140652](https://github.com/user-attachments/assets/0a0ca3fa-95cc-461b-be18-6e3651b6e69d) 
-![Screenshot 2025-03-14 140759](https://github.com/user-attachments/assets/1f680363-9573-4b45-951e-318b3b405ffd)
-![Screenshot 2025-03-14 140819](https://github.com/user-attachments/assets/9d55a1d9-bcdd-4587-9c0d-745998ba9b1d)
-
-
 **Technologies**
 Frontend: HTML, CSS, JavaScript
 Design: Figma
 
 
 **Developed ui**
-![Screenshot 2025-03-18 144007](https://github.com/user-attachments/assets/3deea30f-a573-46a1-a73c-1e27b9a1b3b9)
+![Screenshot 2025-03-18 162547](https://github.com/user-attachments/assets/4855eb75-0901-45bd-9eaf-476b6889b5a2)
 ![Screenshot 2025-03-18 144902](https://github.com/user-attachments/assets/baeaaa57-dede-4643-ba65-6fe947cdae95)
 
 
