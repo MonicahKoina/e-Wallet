@@ -76,7 +76,7 @@ nav {
   padding: 20px;
   width: 50%;
   margin-top: 30px;
-  margin-left: 20px;
+  margin-right: 20px;
 }
 .left-section h1 {
   margin-bottom: 30px;
@@ -138,7 +138,7 @@ nav {
   color: black;
 }
 .login:hover {
-  background-color: rgb(16, 61, 33);
+  background-color: rgb(145, 194, 164);
   color: white;
   cursor: pointer;
 }
