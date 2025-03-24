@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="forms.css" />
+    <title>Sign up</title>
+  </head>
+  <body>
+    
+    <div class="login-image">
+      <figure><img src="../assets/login.jpg" alt="login" /></figure>
+    </div>
+    
+    <form class="register-form">
+        <div style="margin-bottom: 10px;">
+        <h3>Create Account</h3>
+    </div>
+      <div class="div1">
+        <div>
+          <label for="firstName">First Name:</label>
+          <input type="text" placeholder="first name" required id="firstName" />
+        </div>
+        <div>
+          <label for="lastName">Last Name:</label>
+          <input type="text" placeholder="last name" id="lastName" required />
+        </div>
+      </div>
+      <div class="div2">
+        <label for="email">Email</label>
+        <input
+          type="email"
+          placeholder="Enter your email"
+          required
+          id="email"
+        />
+        <label for="password">Password</label>
+        <input type="password" placeholder="password" required id="password" />
+        <label for="confirmPassword">Confirm Password</label>
+        <input
+          type="password"
+          placeholder="re-enter your password"
+          required
+          id="confirmPassword"
+        />
+      </div>
+      <div class="signup" >
+        <button class="signUp-button">Sign up</button>
+      </div>
+      <div class="message">
+        <p>
+          Already have an account?
+        </p>
+        <span><a href="login.html">LogIn</a></span>
+      </div>
+    </form>
+  </body>
+</html>
