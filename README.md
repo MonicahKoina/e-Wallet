@@ -19,13 +19,16 @@ Design: Figma
 
 **Developed ui**
 
-1)Home page and forms
+**1)Home page and forms**
 
 
 
 
 
-https://github.com/user-attachments/assets/723484b1-d0a9-481b-aa28-1c484bab1698
 
-2Dashboard, withdraw and deposite pages
+https://github.com/user-attachments/assets/f68cf905-ad61-40ef-9fd9-a31a3fb89eae
+
+
+
+**2.Dashboard, withdraw and deposit pages**
 
