@@ -12,10 +12,20 @@ document.getElementById("signup").addEventListener("submit", function (event) {
         return;
     }
 
-    console.log("Firn name : ", firstName);
-    console.log("Last name : ", lastName);
-    console.log("Email address : ", email);
-    console.log("User Password : ", password)
-    alert("Account created successfully!")
+    // console.log("Firn name : ", firstName);
+    // console.log("Last name : ", lastName);
+    // console.log("Email address : ", email);
+    // console.log("User Password : ", password)
+
+    let user = {
+        firstName,
+        lastName,
+        email,
+        password
+    }
+
+    localStorage.setItem("key", JSON.stringify(user));
+    alert("Account created successfully");
+    window.location.href = "../forms/login.html"
 
 })
