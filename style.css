@@ -9,16 +9,13 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  backdrop-filter: blur(20px);
-  
+  backdrop-filter: blur(30px);
 }
-
 .hamburger {
   width: 40px;
   cursor: pointer;
   display: none;
 }
-
 nav {
   display: flex;
   padding: 32px;
@@ -29,7 +26,7 @@ nav {
   list-style: none;
   display: flex;
   gap: 2em;
-  margin-left: 40%;
+  margin-left: 50%;
 }
 .nav-links a {
   text-decoration: none;
@@ -76,7 +73,7 @@ nav {
   padding: 20px;
   width: 50%;
   margin-top: 30px;
-  margin-right: 20px;
+  margin-left: 4%;
 }
 .left-section h1 {
   margin-bottom: 30px;
@@ -89,9 +86,10 @@ nav {
   width: 45%;
 }
 .right-section img {
-  width: 100%;
+  width: 80%;
   max-width: 400px;
   height: auto;
+  margin-left: 120px;
 }
 .buttons {
   display: flex;
@@ -152,13 +150,14 @@ nav {
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
-  padding: 20px;
+  padding: 4px 4px 18px 4px;
   font-size: 20px;
   font-weight: 600;
-  border: 2px solid rgb(16, 61, 33);
+  border: 1px solid rgb(16, 61, 33);
   border-radius: 20px;
   width: 80%;
-  margin: 3% auto;
+  margin-top: 6%;
+  margin-left: 10%;
   text-align: center;
 }
 .partb i {
@@ -173,7 +172,7 @@ nav {
   margin-top: 40px;
   height: 100vh;
 }
- 
+
 .sectionA {
   width: 50%;
   padding: 20px;
@@ -221,30 +220,43 @@ nav {
 }
 
 @media (max-width: 768px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
   .nav-links,
   .nav-buttons {
     visibility: hidden;
     flex-direction: column;
     text-align: center;
   }
- 
+
   .rate span {
     position: relative;
     left: 0;
   }
   .hamburger {
     display: block;
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 68px;
   }
+
   .page1 {
     flex-direction: column;
     text-align: center;
     position: relative;
     margin-top: -20%;
   }
-  .left-section,
+  .left-section {
+    width: 100%;
+    margin-left: -1%;
+  }
   .right-section {
     width: 100%;
-    margin-left: 25px;
+    margin-left: -20%;
   }
   .buttons {
     flex-direction: column-reverse;
@@ -253,25 +265,22 @@ nav {
   .partb {
     display: flex;
     flex-direction: column;
-    margin-left: 20%;
+    margin-left: 10%;
   }
- #features{
-  height: auto;
-  display: flex;
-  flex-direction: column;
- }
- .sectionA p{
-  display: none;
- }
-.features-content div{
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-}
-.features-content{
-  margin-left: 16px;
-}
-
- 
- 
+  #features {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .sectionA p {
+    display: none;
+  }
+  .features-content div {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .features-content {
+    margin-left: -7%;
+  }
 }
