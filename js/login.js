@@ -12,7 +12,7 @@ document.querySelector(".login-form").addEventListener("submit", function (event
     }
     if (email === storedUser.email && password === storedUser.password) {
         alert("Login Successfull")
-        window.location.href = "../index.html"
+        window.location.href = "../dashboard/dashboard.html"
     } else {
         alert("invalid email or password, please try again")
     }
