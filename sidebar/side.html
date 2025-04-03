@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="side.css" />
+    <title>Side Bar</title>
+  </head>
+  <body>
+    <nav class="sidebar">
+      <div class="user-info">
+        <span><i class="bx bxs-user-circle"></i> user</span>
+        <button
+          id="menu-toggle"
+          style="
+            border: none;
+            background-color: rgba(255, 254, 254, 0.384);
+            padding: 8px;
+            border-radius: 6px;
+            cursor: pointer;
+          "
+        >
+          <img
+            src="/assets/hamburger-menu-svgrepo-com.svg"
+            alt="Menu"
+            style="height: 28px"
+          />
+        </button>
+      </div>
+      <ul class="nav-links">
+        <li>
+          <i class="bx bxs-dashboard"></i>
+          <a href="/dashboard/dashboard.html">Dashboard</a>
+        </li>
+        <li>
+          <i class="bx bx-dollar-circle"></i>
+          <a href="/Deposit/deposit.html">Deposit</a>
+        </li>
+        <li>
+          <i class="bx bx-money-withdraw"></i>
+          <a href="/Withdraw/withdraw.html">Withdraw</a>
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>
