@@ -3,11 +3,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+.sidebar {
   font-family: "Poppins", sans-serif;
   font-weight: 200;
   font-style: normal;
-}
-.sidebar {
   height: 100vh;
   width: 250px;
   background-color: rgb(16, 61, 33);

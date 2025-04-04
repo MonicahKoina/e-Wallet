@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f4f6f9;
+  color: #333;
+  overflow-x: hidden;
+  display: flex;
+}
+.main-div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 700vw;
+  padding: 20px;
+  gap: 20px;
+}
+
+.left-div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+.div1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.ac-overview {
+  background-color: #fff;
+  padding: 20px;
+  flex: 1;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  margin: 10px 0;
+}
+.spans {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  color: #4caf50;
+}
+.spans i.bx-up-arrow-alt {
+  color: #4caf50;
+}
+.stats {
+  margin-top: 10px;
+}
+
+.stats p {
+  font-size: 14px;
+  color: #888;
+}
+
+.stats h3 {
+  font-size: 22px;
+  margin-top: 5px;
+}
+
+.div2 {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.latest-income,
+.latest-outcome {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  margin-top: 20px;
+}
+
+.history-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.history-header h4 {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.history-header button {
+  padding: 5px 10px;
+  margin-right: 4%;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 12px;
+}
+.receive-from,
+.send-to {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.receive-from figure,
+.send-to figure {
+  margin-right: 10px;
+}
+
+.receive-from img,
+.send-to img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.receive-from div,
+.send-to div {
+  flex: 1;
+  padding-left: 10px;
+}
+
+.receive-from h5,
+.send-to h5 {
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+
+.receive-from p,
+.send-to p {
+  font-size: 12px;
+  color: #888;
+}
+
+.amount h4 {
+  margin-left: 70%;
+  font-size: 16px;
+  color: #4caf50;
+}
+.latest-outcome .amount h4 {
+  color: #e53935;
+}
