@@ -31,7 +31,7 @@ https://github.com/user-attachments/assets/f68cf905-ad61-40ef-9fd9-a31a3fb89eae
 
 
 **2.Dashboard, withdraw and deposit pages**
-**a)Dashboard**
 ![Screenshot 2025-04-04 175530](https://github.com/user-attachments/assets/604e1dee-9d8c-49f7-add4-25ddd6d3c4b9)
+![Screenshot 2025-04-09 120922](https://github.com/user-attachments/assets/977561b5-8785-4209-9a44-8702d282e5d8)
 
 
